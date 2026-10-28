@@ -1,4 +1,5 @@
 import './style.css';
+import { rotate } from './rotation';
 
 const COLUMNS = 10;
 const ROWS = 20;
