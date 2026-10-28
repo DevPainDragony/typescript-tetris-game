@@ -105,11 +105,7 @@ function spawnNext(): void {
   canHold = true;
   holdStatus.textContent = 'SAVE FOR LATER';
   if (collision(active)) finishGame();
-}
 
-function rotate(matrix: Matrix): Matrix {
-  return matrix[0].map((_, column) => matrix.map((row) => row[column]).reverse());
-}
 
 function rotateActive(): void {
   if (paused || gameOver) return;
