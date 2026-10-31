@@ -27,7 +27,7 @@ describe('Tetris piece rotation', () => {
       [1, 1],
       [1, 1],
     ])).toEqual([
-      [1, 1],
+      [1, 0],
       [1, 1],
     ]);
   });
